@@ -1,0 +1,27 @@
+{
+  "name": "sql_employee_registry",
+  "version": "1.0.0",
+  "description": "An application that tracks employee data using an SQL database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SidneyBasa/sql_employee_registry.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SidneyBasa/sql_employee_registry/issues"
+  },
+  "homepage": "https://github.com/SidneyBasa/sql_employee_registry#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "express": "^4.18.2",
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.1.0",
+    "nodemon": "^2.0.20"
+  }
+}
