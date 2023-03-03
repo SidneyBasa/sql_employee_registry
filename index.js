@@ -91,23 +91,41 @@ function viewAllDepartments() {
             type: 'list',
             message: 'Please select one of the Departments:',
             name: 'department_list',
-            choices: ['Department 1', 'Department 2', 'Department 3', 'exit'],
+            choices: ['driving department', 'security department', 'IT department', ,'mechanic department', 'maintenance department', 'cooking department', 'cleaning department', 'exit'],
         }
     ]).then((response) => {
         switch (response.department_list) {
-            case "Department 1":
+            case "driving department":
                 makemore();
                 break;
                 // console.log("ADD all departments")
                 // viewAllDepartments();
                 // return all view departments
                 
-            case "Department 2":
+            case "security department":
                 makemore();
                 break;
-            case "Department 3":
+
+            case "IT department":
                 makemore();
                break;
+
+               case "mechanic department":
+                makemore();
+               break;
+
+               case "maintenance department":
+                makemore();
+               break;
+
+               case "cooking department":
+                makemore();
+               break;
+
+               case "cleaning department":
+                makemore();
+               break;
+
             case "exit":
                 quit();
                 break;
