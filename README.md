@@ -5,7 +5,7 @@ An application that tracks employee data using an SQL database
 ## Table of contents
 - [Installation](#installation)
 - [License](#license)
-- [Video Walkthrough](#Video Walkthrough)
+- [Walkthrough](#Walkthrough)
 
 
 ## Installation
