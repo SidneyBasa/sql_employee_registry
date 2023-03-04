@@ -29,5 +29,5 @@ An application that tracks employee data using an SQL database
 ## License
 MIT License
 
-## Video Walkthrough
+## Walkthrough
 https://www.youtube.com/watch?v=RorCaWCje_c
